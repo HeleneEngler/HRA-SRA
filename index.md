@@ -117,9 +117,6 @@ So lets check the distribution of our dependent variable, plant height, with a h
 ## Plot Histogram in basic R 
 hist(traits$height, breaks = 10) # non normal distribution, right skew
 ```
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91228202/145286937-c6a575be-5c3f-4a1c-82d9-846114322ffe.png" />
-<p align="center"> *Figure 1. Distribution of plant height(m).* </p>
 
 ```
 # Log transforming data, to achieve normal distribution
