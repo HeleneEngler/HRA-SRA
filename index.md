@@ -127,8 +127,6 @@ traits <-  traits %>%
 hist(traits$log.ht, breaks = 10) # close to normal
 ```
 
-<p align="center"><img src="https://user-images.githubusercontent.com/91228202/145290312-9a44c8b6-deba-4920-9198-26513ce34dfe.png" />
-<p align="center"> *Figure 2. Distribution of log[plant height(m)].* </p>
 
 While the data still does not look perfectly normally distributed it should be fine for modelling. Perfect normal distributions are rare in environmental data and linear models are not that sensitive to slight abnormalities in distribution. However, it is important to check the residuals of the model we will build, to be able to prove the validity of your statistical method. 
 
